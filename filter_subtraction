@@ -17,7 +17,7 @@ from scipy import optimize
 plt.style.use('classic')
 plt.rc('font', family='Times New Roman')
 
-# view the images
+# view the images; you may want to change the path accordingly
 gband = fits.getdata('/Users/panyue/COOL_LAMPS/team1a/filter_subtraction/g.fits')
 rband = fits.getdata('/Users/panyue/COOL_LAMPS/team1a/filter_subtraction/r.fits')
 zband = fits.getdata('/Users/panyue/COOL_LAMPS/team1a/filter_subtraction/z.fits')
